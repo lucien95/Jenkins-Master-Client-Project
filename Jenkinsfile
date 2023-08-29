@@ -31,8 +31,8 @@ pipeline {
     stage('SonarQube Inspection') {
         steps {
             sh  """mvn sonar:sonar \
-                   -Dsonar.projectKey=Maven-JavaWebApp \
-                   -Dsonar.host.url=http://172.31.5.173:9000 \
+                   -Dsonar.projectKey=Maven-Java-Webapp \
+                   -Dsonar.host.url=http://172.31.58.114:9000 \
                    -Dsonar.login=ed7f1ae74cf8b693cadbd47043d4b9ed5ef50913"""
         }
     }
