@@ -39,7 +39,7 @@ sonarqube {
         property "sonar.sourceEncoding", "UTF-8"
                 property "sonar.projectName", "Maven-Java-Webapp"
                 property "sonar.host.url", "http://172.31.58.114:9000"
-                property "sonar.login", "ed7f1ae74cf8b693cadbd47043d4b9ed5ef50913"
+                property "sonar.login", "d7eb907e89ea5e56186657614e1fc58d3abc2ec4"
     }
 }
 
